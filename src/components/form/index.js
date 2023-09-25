@@ -23,6 +23,7 @@ export default function Form() {
 
   function verificationImc(){
     if(imc == null){
+      Vibration.vibrate();
       setErrorMessage("Campo obrigatório *")
     }
   }
