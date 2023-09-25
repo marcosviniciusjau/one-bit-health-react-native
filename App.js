@@ -1,12 +1,12 @@
-import React from "react";
+import React from "react"
 import { StyleSheet, View } from "react-native"
-import Title from "./src/components/title/";
-import Form from "./src/components/form/";
+import Title from "./src/components/title/"
+import Main from "./src/components/main/"
 export default function App() {
   return (
     <View style={styles.container}>
-      <Title/>
-      <Form/>
+      <Title />
+      <Main />
     </View>
   )
 }
