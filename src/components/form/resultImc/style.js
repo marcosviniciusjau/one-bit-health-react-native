@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native"
-
+import setColor from "../index"
 const styles = StyleSheet.create({
   contextImc: {
     flex: 1,
@@ -21,6 +21,10 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
   },
 
+  classification: {
+    color: `${setColor}`,
+    fontSize: 15,
+  },
   boxSharebutton: {
     width: "100%",
     alignItems: "center",
@@ -32,10 +36,10 @@ const styles = StyleSheet.create({
     paddingBottom: 5,
     paddingTop: 5,
   },
-  sharedText:{
-   color:"#ffff",
-   flexWeight:"bold",
-   paddingHorizontal:30,
+  sharedText: {
+    color: "#ffff",
+    flexWeight: "bold",
+    paddingHorizontal: 30,
   },
 })
 
